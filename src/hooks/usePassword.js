@@ -3,7 +3,6 @@ import { getpasswordStrength } from '../helpers/passwordStrength';
 const usePassword = (password, ...args) => {
   const Passwordstrength = getpasswordStrength(password);
   const colorArgs = [...args];
-  console.log(colorArgs);
   let colors = [];
 
   const getColorSection = idx => {
